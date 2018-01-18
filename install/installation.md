@@ -13,6 +13,8 @@ initdb.exe -U postgres -A password -E utf8 -W -D D:\database\postgresql\data
 pg_ctl -D ^"D^:^\database^\postgresql^\data^" -l logfile start
 ```
 * To start PostgreSQL Server
+* Bundled `` pgadmin `` may not work
+* So Download and Install standalone `` pgadmin `` installer and install it
 
 ### psql cheat-sheet
 #### PSQL
