@@ -10,9 +10,9 @@ initdb.exe -U postgres -A password -E utf8 -W -D D:\database\postgresql\data
 * Give password `` nopass ``
 * You will find a command like
 ```sh
-pg_ctl -D ^"D^:^\database^\postgresql^\data^" -l logfile start
+pg_ctl -D "D:\database\postgresql\data" -l logfile start
 ```
-* To start PostgreSQL Server
+* To start PostgreSQL Server from Administrator Command
 * Bundled `` pgadmin `` may not work
 * So Download and Install standalone `` pgadmin `` installer and install it
 
