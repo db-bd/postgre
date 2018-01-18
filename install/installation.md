@@ -14,7 +14,7 @@ pg_ctl -D ^"D^:^\database^\postgresql^\data^" -l logfile start
 ```
 * To start PostgreSQL Server
 
-### psql cheatsheet
+### psql cheat-sheet
 #### PSQL
 
 Magic words:
@@ -142,6 +142,9 @@ $ echo "bind "^R" em-inc-search-prev" > $HOME/.editrc
 $ source $HOME/.editrc
 ``` 
 - [PostgreSQL Exercises](https://pgexercises.com/): An awesome resource to learn to learn SQL, teaching you with simple examples in a great visual way. **Highly recommended**.
+
+### psql Cheat-Sheet
+* [Gist](https://gist.github.com/Kartones/dd3ff5ec5ea238d4c546)
 
 ### Install PostgreSQL from Offline Zip in Windows
 * [Tutorial](https://www.youtube.com/watch?v=LrxVQFQRIcE)
