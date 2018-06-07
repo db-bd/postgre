@@ -10,7 +10,7 @@ sudo -u postgres psql postgres
 127.0.0.1
 ```
 
-## Md5 Connection
+## Md5 Connection for CentOS from PHP Script
 ```sh
 vim /var/lib/pgsql/data/pg_hba.conf
 
