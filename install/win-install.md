@@ -17,6 +17,13 @@ pg_ctl -D "D:\database\postgresql\data" -l logfile start
 * Bundled `` pgadmin `` may not work
 * So Download and Install standalone `` pgadmin `` installer and install it
 
+### Postgres Service Register, Start & Connect
+```sh
+pg_ctl.exe register -N postgres -U smwin -P 0000 -D "D:/database/postgresql/data"
+pg_ctl start -D "D:/database/postgresql/data"
+psql -U postgres
+```
+
 ### psql cheat-sheet
 #### PSQL
 
