@@ -5,6 +5,11 @@ sudo -u postgres psql postgres
 \q
 ```
 
+## Connect
+```sh
+sudo -u postgres psql
+```
+
 ## Drupal Connection Host
 ```sh
 127.0.0.1
