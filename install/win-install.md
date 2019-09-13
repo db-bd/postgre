@@ -12,9 +12,9 @@ initdb.exe -U postgres -A password -E utf8 -W -D D:\database\postgresql\data
 ```sh
 pg_ctl -D "D:\database\postgresql\data" -l logfile start
 ```
-* If error happens
+* If error happens then from ` D:\Database\Postgresql\bin> `
 ```sh
-D:\Database\Postgresql\bin>pg_ctl -D ^"D^:^\Database^\Postgresql^\data^" -l logfile start
+pg_ctl -D ^"D^:^\Database^\Postgresql^\data^" -l logfile start
 ```
 * To start PostgreSQL Server from Administrator Command
 * Don't Close the terminal cmd where `` pg_ctl `` command ran
