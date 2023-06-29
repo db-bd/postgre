@@ -1,6 +1,6 @@
 ### [Postgres Service Register, Initialize, Start & Connect](https://www.postgresql.org/docs/10/static/app-pg-ctl.html)
 ```sh
-pg_ctl.exe register -N Postgre -U Amran -P 0000 -D "D:/database/postgresql/data"
+pg_ctl register -N Postgre -D "C:\Programs\DB\Postgre\data"
 initdb.exe -U postgre -A password -E utf8 -W -D D:\database\postgresql\data
 pg_ctl start -D "D:/database/postgresql/data"
 psql -U postgre
