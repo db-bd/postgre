@@ -1,3 +1,11 @@
+### [Postgres Service Register, Initialize, Start & Connect](https://www.postgresql.org/docs/10/static/app-pg-ctl.html)
+```sh
+pg_ctl.exe register -N Postgre -U Amran -P 0000 -D "D:/database/postgresql/data"
+initdb.exe -U postgre -A password -E utf8 -W -D D:\database\postgresql\data
+pg_ctl start -D "D:/database/postgresql/data"
+psql -U postgre
+```
+
 ### Installtion from Zip File in Windows
 * Let the Unzipped Location be `` D:\database\postgresql\ ``
 * Add PostgreSQL `` bin `` folder location to Environment `` PATH `` variable
@@ -20,14 +28,6 @@ pg_ctl -D ^"D^:^\Database^\Postgresql^\data^" -l logfile start
 * Don't Close the terminal cmd where `` pg_ctl `` command ran
 * Bundled `` pgadmin `` may not work
 * So Download and Install standalone `` pgadmin `` installer and install it
-
-### [Postgres Service Register, Initialize, Start & Connect](https://www.postgresql.org/docs/10/static/app-pg-ctl.html)
-```sh
-pg_ctl.exe register -N postgre -U smwin -P 0000 -D "D:/database/postgresql/data"
-initdb.exe -U postgre -A password -E utf8 -W -D D:\database\postgresql\data
-pg_ctl start -D "D:/database/postgresql/data"
-psql -U postgre
-```
 
 ### psql cheat-sheet
 #### PSQL
