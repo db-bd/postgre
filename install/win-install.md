@@ -5,7 +5,7 @@
 * Navigate to `` D:\database\postgresql\bin `` directory
 * Open `` CMD `` and run following command
 ```sh
-initdb.exe -U postgres -A password -E utf8 -W -D D:\database\postgresql\data
+initdb.exe -U postgre -A password -E utf8 -W -D D:\database\postgresql\data
 ```
 * Give password `` nopass ``
 * You will find a command like
@@ -23,10 +23,10 @@ pg_ctl -D ^"D^:^\Database^\Postgresql^\data^" -l logfile start
 
 ### [Postgres Service Register, Initialize, Start & Connect](https://www.postgresql.org/docs/10/static/app-pg-ctl.html)
 ```sh
-pg_ctl.exe register -N postgres -U smwin -P 0000 -D "D:/database/postgresql/data"
-initdb.exe -U postgres -A password -E utf8 -W -D D:\database\postgresql\data
+pg_ctl.exe register -N postgre -U smwin -P 0000 -D "D:/database/postgresql/data"
+initdb.exe -U postgre -A password -E utf8 -W -D D:\database\postgresql\data
 pg_ctl start -D "D:/database/postgresql/data"
-psql -U postgres
+psql -U postgre
 ```
 
 ### psql cheat-sheet
@@ -34,7 +34,7 @@ psql -U postgres
 
 Magic words:
 ```bash
-psql -U postgres
+psql -U postgre
 ```
 Some interesting flags (to see all, use `-h`):
 - `-E`: will describe the underlaying queries of the `\` commands (cool for learning!)
